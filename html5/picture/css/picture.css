@@ -1,0 +1,92 @@
+ html body {
+ 	overflow-x: hidden;
+ 	overflow-y: hidden;
+ }
+ 
+ .pic,
+ .pic .swiper-container,
+ .pic .swiper-container .swiper-wrapper {
+ 	width: 100%;
+ 	height: auto;
+ }
+ 
+ .pic .swiper-container .swiper-wrapper .swiper-slide {
+ 	width: 3.75rem;
+ 	height: 13.43rem;
+ 	overflow: hidden;
+ 	zoom: 1;
+ }
+ 
+ .pic .swiper-container .swiper-wrapper .swiper-slide>img {
+ 	width: 100%;
+ 	height: 100%;
+ 	display: block;
+ }
+ 
+ .words {
+ 	width: 92%;
+ 	height: auto;
+ 	overflow: hidden;
+ 	zoom: 1;
+ 	position: fixed;
+ 	bottom: .1rem;
+ 	left: .3rem;
+ 	z-index: 9;
+ }
+ 
+ .words .text {
+ 	width: 100%;
+ 	height: auto;
+ 	line-height: .4rem;
+ 	font-size: .3rem;
+ 	color: #FFFFFF;
+ 	display: -webkit-box;
+ 	-webkit-line-clamp: 3;
+ 	-webkit-box-orient: vertical;
+ 	overflow: hidden;
+ }
+ 
+ .words .star {
+ 	width: 100%;
+ 	height: auto;
+ 	overflow: hidden;
+ 	zoom: 1;
+ }
+ 
+ .words .star>span {
+ 	width: auto;
+ 	height: .9rem;
+ 	line-height: .9rem;
+ 	font-size: .3rem;
+ 	color: #FFFFFF;
+ 	display: block;
+ 	float: left;
+ }
+ 
+ .words .star>em {
+ 	width: auto;
+ 	height: .9rem;
+ 	line-height: .9rem;
+ 	font-size: .3rem;
+ 	padding: 0 .3rem;
+ 	background: url(../images/0127_71.png) no-repeat;
+ 	background-size: .3rem;
+ 	background-position: right;
+ 	padding-right: .4rem;
+ 	color: #FFFFFF;
+ 	float: right;
+ }
+ 
+ .words .star>em.em-active {
+ 	width: auto;
+ 	height: .9rem;
+ 	line-height: .9rem;
+ 	font-size: .3rem;
+ 	padding: 0 .3rem;
+ 	background: url(../images/0127_70.png) no-repeat;
+ 	background-size: .3rem;
+ 	background-position: right;
+ 	padding-right: .4rem;
+ 	color: #FFFFFF;
+ 	float: right;
+ }

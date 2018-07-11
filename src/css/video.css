@@ -1,0 +1,111 @@
+html body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.shipin {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+
+.shipin .shipin-item {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.shipin .shipin-item > video {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+#video1 {
+    width: 100%;
+    height: 13.34rem;
+    overflow: hidden;
+    zoom: 1;
+    background: #000000;
+}
+
+#video1 > source {
+    width: 100%;
+    height: 13.34rem;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.shipin > img {
+    width: 1rem;
+    height: 1rem;
+    overflow: hidden;
+    zoom: 1;
+    position: absolute;
+    top: 6rem;
+    left: 42%;
+    z-index: 9;
+}
+
+.words {
+    width: 92%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    position: fixed;
+    bottom: .1rem;
+    left: .3rem;
+    z-index: 9;
+}
+
+.words .text {
+    width: 100%;
+    height: auto;
+    line-height: .4rem;
+    font-size: .3rem;
+    color: #FFFFFF;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.words .star {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.words .star > em {
+    width: auto;
+    height: .9rem;
+    line-height: .9rem;
+    font-size: .3rem;
+    padding: 0 .3rem;
+    background: url(../images/vote/ico_collection_1@1.5x.png) no-repeat;
+    background-size: .3rem;
+    background-position: right;
+    padding-right: .4rem;
+    color: #FFFFFF;
+    float: right;
+}
+
+.words .star > em.em-active {
+    width: auto;
+    height: .9rem;
+    line-height: .9rem;
+    font-size: .3rem;
+    padding: 0 .3rem;
+    background: url(../images/vote/ico_collection_4@1.5x.png) no-repeat;
+    background-size: .3rem;
+    background-position: right;
+    padding-right: .4rem;
+    color: #FFFFFF;
+    float: right;
+}
+-webkit-transform: translate3d(0, 0, 0);

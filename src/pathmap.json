@@ -1,0 +1,75 @@
+{
+  "zepto": "scripts/lib/zepto.min.js",
+  "fastclick":"scripts/lib/fastclick.js",
+  "config":"scripts/config/config.js",
+  "rem":"scripts/config/rem.js",
+  "api":"scripts/config/api.js",
+  "md5":"scripts/config/md5.min.js",
+  "swiperJs":"scripts/lib/swiper.min.js",
+  "iscrollJs":"scripts/lib/iscroll-probe.js",
+  "piclazyLoad":"scripts/config/zepto.picLazyLoad.min.js",
+
+  "commonCss":"css/common/common.css",
+  "isloadingCss":"css/common/isloading.css",
+  "maskloadingCss":"css/common/maskloading.css",
+  "bannerCss":"css/common/banner.css",
+  "topCss":"css/common/top.css",
+  "swiper":"css/swiper.min.css",
+
+
+  "evaluateCss":"css/evaluate.css",
+  "feedbackCss":"css/feedback.css",
+  "findIndexCss":"css/findIndex.css",
+  "findActivityCss":"css/findActivity.css",
+  "questionnaireCss":"css/questionnaire.css",
+  "msgCss":"css/msg.css",
+  "prizeCss":"css/prize.css",
+  "carouselCss":"css/carousel.css",
+  "voteCss":"css/vote.css",
+  "releaseCss":"css/release.css",
+  "videoCss":"css/video.css",
+  "pictureCss":"css/picture.css",
+  "uploadCss":"css/upload.css",
+  "poststhCss":"css/postSth.css",
+  "memberShipCss":"css/memberShip.css",
+  "activityCss":"css/activity.css",
+  "conversationCss":"css/conversation.css",
+  "staticPageCss":"css/staticPage.css",
+
+
+  "areasJsx":"scripts/components/hk.h5.component.areas.jsx",
+
+
+  "evaluateJsx":"scripts/containers/hk.h5.container.evaluate.jsx",
+  "feedbackJsx":"scripts/containers/hk.h5.container.feedback.jsx",
+  "findIndexJsx": "scripts/containers/hk.h5.container.findIndex.jsx",
+  "findActivityJsx": "scripts/containers/hk.h5.container.findActivity.jsx",
+  "msgJsx": "scripts/containers/hk.h5.container.msg.jsx",
+  "prizeJsx": "scripts/containers/hk.h5.container.prize.jsx",
+  "carouselJsx": "scripts/containers/hk.h5.container.carousel.jsx",
+  "questionnaireJsx": "scripts/containers/hk.h5.container.questionnaire.jsx",
+  "voteJsx": "scripts/containers/hk.h5.container.vote.jsx",
+  "releaseJsx": "scripts/containers/hk.h5.container.release.jsx",
+  "videoJsx": "scripts/containers/hk.h5.container.video.jsx",
+  "pictureJsx": "scripts/containers/hk.h5.container.picture.jsx",
+  "uploadJsx": "scripts/containers/hk.h5.container.upload.jsx",
+  "poststhJsx": "scripts/containers/hk.h5.container.poststh.jsx",
+  "memberShipJsx": "scripts/containers/hk.h5.container.memberShip.jsx",
+  "activityJsx": "scripts/containers/hk.h5.container.activity.jsx",
+  "conversationJsx": "scripts/containers/hk.h5.container.conversation.jsx",
+  "staticPageJsx": "scripts/containers/hk.h5.container.staticPage.jsx",
+
+
+  "loadingJsx":"scripts/commonViews/hk.h5.commonviews.loading.jsx",
+  "maskloadingJsx":"scripts/commonViews/hk.h5.commonviews.maskloading.jsx",
+  "nomoreJsx":"scripts/commonViews/hk.h5.commonviews.nomore.jsx",
+  "bannerJsx":"scripts/commonViews/hk.h5.commonviews.banner.jsx",
+  "topJsx":"scripts/commonViews/hk.h5.commonviews.top.jsx",
+
+
+  "util":"scripts/util/hk.h5.util.util.js",
+  "query":"scripts/util/hk.h5.util.query.js",
+  "getUser":"scripts/util/hk.h5.util.store.js",
+  "nativeFun":"scripts/util/hk.h5.util.hybrid.js",
+  "jump":"scripts/util/hk.h5.util.jump.js"
+}

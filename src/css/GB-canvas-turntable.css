@@ -1,0 +1,79 @@
+.gb-turntable ul, .gb-turntable li {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.gb-turntable {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.gb-turntable-container {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background-clip: padding-box;
+    -webkit-transition: all 6s ease;
+    transition: all 6s ease
+}
+
+.gb-turntable-container canvas {
+    width: inherit;
+    height: inherit;
+}
+
+.gb-turntalbe-list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: inherit;
+    height: inherit;
+    z-index: 2
+}
+
+.gb-turntable-item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #E5302F;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.6)
+}
+
+.gb-turntable-item span {
+    position: relative;
+    display: block;
+    padding-top: 15px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    -webkit-transform-origin: 50% 150px;
+    -ms-transform-origin: 50% 150px;
+    transform-origin: 50% 150px
+}
+.gb-turntable-item span img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 10px auto 0;
+}
+.gb-turntable-btn {
+
+    font-size: 20px;
+}
+
+.gb-turntable-btn.disabled {
+    pointer-events: none;
+    background: #B07A7B;
+    color: #ccc
+}
+
+.gb-run {
+    -webkit-transition: all 6s ease;
+    transition: all 6s ease
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>发现-图片</title>
+		<meta name="description" content="">
+		<meta name="Keywords" content="">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="format-detection" content="telephone=no,email=no">
+		<link href="../common/css/common.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/picture.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+	</head>
+
+	<body>
+		<div class="page">
+			<div class="pic">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="images/banner_02.png" /></div>
+						<div class="swiper-slide"><img src="images/banner_02.png" /></div>
+						<div class="swiper-slide"><img src="images/banner_02.png" /></div>
+						<div class="swiper-slide"><img src="images/banner_02.png" /></div>
+						<div class="swiper-slide"><img src="images/banner_02.png" /></div>
+						<div class="swiper-slide"><img src="images/banner_02.png" /></div>
+						<div class="swiper-slide"><img src="images/banner_02.png" /></div>
+						<div class="swiper-slide"><img src="images/banner_02.png" /></div>
+						<div class="swiper-slide"><img src="images/banner_02.png" /></div>
+						<div class="swiper-slide"><img src="images/banner_02.png" /></div>
+					</div>
+				</div>
+			</div>
+			<div class="words">
+				<div class="text">
+					发电费收费发达发送范德萨发到付发发所发生的答案是发的说法按时发达发的啥发打发斯蒂芬发士大夫撒发顺丰撒范德萨发士大夫发打发斯蒂芬发大水发发生啊发顺丰第三方
+				</div>
+				<div class="star">
+					<span>1/9</span>
+					<em>2000</em>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../common/js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/picture.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var mySwiper = new Swiper('.swiper-container', {
+			on: {
+				slideChangeTransitionStart: function() {
+					alert(this.activeIndex);
+				},
+			},
+		})
+	</script>
+
+</html>

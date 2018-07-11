@@ -1,0 +1,101 @@
+html body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: #000000;
+}
+
+.pic,
+.pic .swiper-container,
+.pic .swiper-container .swiper-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.pic .swiper-container .swiper-wrapper .swiper-slide {
+    /*width: 7.5rem;*/
+    /*height: auto;*/
+    /*overflow: hidden;*/
+    /*zoom: 1;*/
+    width: 100vh;
+    height: 100vh;
+}
+
+.pic .swiper-container .swiper-wrapper .swiper-slide > img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+     vertical-align: middle;
+    objec-fit: cover;
+}
+
+.words {
+    width: 92%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    background: #646464;
+    padding: .3rem;
+}
+
+.words .text {
+    width: 100%;
+    height: auto;
+    line-height: .4rem;
+    font-size: .3rem;
+    color: #FFFFFF;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+}
+
+.words .star {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.words .star > span {
+    width: auto;
+    height: .9rem;
+    line-height: .9rem;
+    font-size: .3rem;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+}
+
+.words .star > em {
+    width: auto;
+    height: .9rem;
+    line-height: .9rem;
+    font-size: .3rem;
+    padding: 0 .3rem;
+    background: url(../images/vote/ico_collection_1@1.5x.png) no-repeat;
+    background-size: .3rem;
+    background-position: right;
+    padding-right: .4rem;
+    color: #FFFFFF;
+    float: right;
+}
+
+.words .star > em.em-active {
+    width: auto;
+    height: .9rem;
+    line-height: .9rem;
+    font-size: .3rem;
+    padding: 0 .3rem;
+    background: url(../images/vote/ico_collection_4@1.5x.png) no-repeat;
+    background-size: .3rem;
+    background-position: right;
+    padding-right: .4rem;
+    color: #FFFFFF;
+    float: right;
+}

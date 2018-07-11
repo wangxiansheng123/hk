@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>发现-活动</title>
+		<meta name="description" content="">
+		<meta name="Keywords" content="">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="format-detection" content="telephone=no,email=no">
+		<link href="../common/css/common.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/release.css" />
+	</head>
+
+	<body>
+		<div class="page">
+			<div class="title">
+				<ul id="tit">
+					<li>
+						<em class="em-select">上传</em>
+						<span class="span-select"></span>
+					</li>
+					<li>
+						<em>审核</em>
+						<span></span>
+					</li>
+					<li>
+						<em>发布</em>
+						<span></span>
+					</li>
+				</ul>
+				<img src="images/share_05.png" />
+			</div>
+			<ul id="con">
+				<li class="show">
+					<ul class="pic-box">
+						<li>
+							<img class="pic-select" src="images/0127_70.png" />
+							<div class="play">
+								<div class="pic">
+									<img src="../conversation/images/goods_02.jpg" />
+								</div>
+								<div class="pic-r">
+									<p>方式发大水发送发的啥撒旦飞洒地方撒旦案发地方撒打法是否沙发撒的发大水法萨芬士大夫撒范德萨发沙发沙发舒服萨芬撒飞洒地方撒法法师的法师法法师法师法师发斯蒂芬啊收到范德萨发发法法阿萨德发的萨芬</p>
+									<div class="pic-down">
+										<div class="pic-down-l">
+											<span>20</span>
+											<span>300</span>
+										</div>
+										<div class="pic-down-r"> 上传中 </div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<img class="pic-select" src="images/0127_70.png" />
+							<div class="play play-active">
+								<div class="pic">
+									<img src="../conversation/images/goods_02.jpg" />
+								</div>
+								<div class="pic-r pic-r-active">
+									<p>方式发大水发送发的啥撒旦飞洒地方撒旦案发地方撒打法是否沙发撒的发大水法萨芬士大夫撒范德萨发沙发沙发舒服萨芬撒飞洒地方撒法法师的法师法法师法师法师发斯蒂芬啊收到范德萨发发法法阿萨德发的萨芬</p>
+									<div class="pic-down">
+										<div class="pic-down-l">
+											<span>20</span>
+											<span>300</span>
+										</div>
+										<div class="pic-down-r"> 上传中 </div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>内容222</li>
+				<li>内容333</li>
+				<div class="msg">
+					<div><img src="images/0127_70.png" />全选</div>
+					<div class="delect">删除</div>
+				</div>
+			</ul>
+		</div>
+	</body>
+	<script src="../common/js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/release.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		$('#tit>li').click(function() {
+			var i = $(this).index(); //var i = $('tit').index(this);//下标第二种写法
+			$(this).find("em").addClass('em-select');
+			$(this).find("span").addClass('span-select');
+			$(this).siblings().find("em").removeClass('em-select');
+			$(this).siblings().find("span").removeClass('span-select');
+			$('#con>li').eq(i).show().siblings("li").hide();
+		});
+	</script>
+
+</html>

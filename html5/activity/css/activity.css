@@ -1,0 +1,100 @@
+.review-up {
+    width: 100%;
+    height: .88rem;
+    line-height: .88rem;
+    font-size: .28rem;
+    font-weight: 800;
+    color: #323232;
+    padding: 0 .24rem;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+
+.activity {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.activity .activity-item {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    border-bottom: 1px solid #EEEEEE;
+    box-sizing: content-box;
+}
+
+.activity .activity-item > h2 {
+    width: 100%;
+    max-width: 80%;
+    overflow: hidden;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .3rem;
+    font-weight: 900;
+    color: #000000;
+    text-indent: .3rem;
+}
+
+.activity .activity-item .pic {
+    width: 100%;
+    height: 3rem;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+
+.activity .activity-item .pic > img {
+    width: 100%;
+    height: 100%;
+}
+
+.activity .activity-item .pic > span {
+    width: auto;
+    height: auto;
+    font-size: .3rem;
+    background: #000000;
+    color: #FFFFFF;
+    padding: .08rem .1rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.activity .activity-item .down {
+    width: 100%;
+    height: .8rem;
+}
+
+.activity .activity-item .down .down-l {
+    width: auto;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .22rem;
+    color: #494949;
+    float: left;
+}
+
+.activity .activity-item .down .down-l > img {
+    width: .3rem;
+    height: .3rem;
+    margin: .2rem .2rem .25rem .3rem;
+}
+
+.activity .activity-item .down .down-r {
+    width: 1.08rem;
+    height: .46rem;
+    line-height: .46rem;
+    font-size: .22rem;
+    color: #494949;
+    border-radius: .08rem;
+    border: 1px solid #888888;
+    color: #888;
+    float: right;
+    margin-right: .3rem;
+    text-align: center;
+    margin: .17rem .3rem .17rem 0;
+}

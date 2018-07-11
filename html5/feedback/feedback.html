@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>发表评论</title>
+		<meta name="description" content="">
+		<meta name="Keywords" content="">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="format-detection" content="telephone=no,email=no">
+		<link href="../common/css/common.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/feedback.css" />
+		<script src="../common/js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/feedback.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="page">
+			<div class="review">
+				<div class="review-up">请选择你的问题</div>
+				<ul class="Choice">
+					<li>
+						<span>怎么使用兑换卡</span>
+						<img src="images/0127_70.png" />
+					</li>
+					<li>
+						<span>账号被盗了</span>
+						<img src="images/0127_70.png" />
+					</li>
+					<li>
+						<span>缓存不了</span>
+						<img src="images/0127_70.png" />
+					</li>
+					<li>
+						<span>开通会员支付失败</span>
+						<img src="images/0127_70.png" />
+					</li>
+					<li>
+						<span>正常聊天时,图片,语音或视频发送失败,失败无法评论,点赞或分享</span>
+						<img class="last-pic" src="images/0127_70.png" />
+					</li>
+				</ul>
+				<div class="reviewBox">
+					<div class="review-down">
+						<textarea class="reviewtext" name="" rows="" cols=""></textarea>
+						<div class="hintText">分享下你对商品的体验,分享给大家吧~</div>
+					</div>
+				</div>
+				<div class="pictureBox">
+					<div class="picture-title">图片</div>
+					<div>
+						<div class="pictureBox-item">
+							<img src="images/addTo.png" />
+							<input class="upload" type="file" name="image" accept=“image/*” onchange='handleInputChange'>
+						</div>
+					</div>
+				</div>
+				<div class="phone">
+					<input type="number" value="" placeholder="请留下你的联系方式" />
+				</div>
+				<div class="item-btns">
+					<a class="btn-login" href="javascript:void(0);">提交</a>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,211 @@
+html body {
+    background: #EEEEEE;
+}
+
+.view {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    background: #FFFFFF;
+    margin-top: .12rem;
+    float: left;
+}
+
+.view .view-title {
+    width: 100%;
+    height: .9rem;
+    line-height: .9rem;
+    font-size: .3rem;
+    color: #000000;
+    text-align: center;
+}
+
+.view .view-content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.view .view-content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.view .view-content .view-pc {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.view .view-content .view-pc > li {
+    width: 49.6%;
+    height: 3.8rem;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+    margin-bottom: .08rem;
+}
+
+.view .view-content .view-pc > li:nth-of-type(odd) {
+    float: left;
+}
+
+.view .view-content .view-pc > li:nth-of-type(even) {
+    float: right;
+}
+
+.view .view-content .view-pc > li > img {
+    width: 100%;
+    height: 100%;
+}
+
+.view .view-content .view-pc > li > span {
+    width: auto;
+    height: .4rem;
+    line-height: .4rem;
+    font-size: .24rem;
+    padding: 0 .2rem;
+    background: #000000;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.view .view-content .view-pc > li > em {
+    width: auto;
+    height: .4rem;
+    line-height: .44rem;
+    font-size: .3rem;
+    padding: 0 .3rem;
+    position: absolute;
+    bottom: .2rem;
+    right: .2rem;
+    background: url(../images/vote/ico_collection_1@1.5x.png) no-repeat;
+    background-size: .3rem;
+    background-position: right;
+    padding-right: .4rem;
+    color: #FFFFFF;
+}
+
+.view .view-content .view-pc > li .em-active {
+    width: auto;
+    height: .4rem;
+    line-height: .44rem;
+    font-size: .3rem;
+    padding: 0 .3rem;
+    position: absolute;
+    bottom: .2rem;
+    right: .2rem;
+    background: url(../images/vote/ico_collection_4@1.5x.png) no-repeat;
+    background-size: .3rem;
+    background-position: right;
+    padding-right: .4rem;
+    color: #FFFFFF;
+}
+
+.view-text {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.view-text > li {
+    width: 92%;
+    margin: .6rem .3rem;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.view-text > li .num {
+    width: .8rem;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+}
+
+.view-text > li .num > span {
+    width: .5rem;
+    height: .5rem;
+    line-height: .5rem;
+    overflow: hidden;
+    zoom: 1;
+    background: #909090;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: .3rem;
+    text-align: center;
+    display: block;
+}
+
+.view-text > li .text-content {
+    width: 88%;
+    height: auto;
+    float: left;
+}
+
+.view-text > li .text-content > p {
+    width: 100%;
+    line-height: .4rem;
+    font-size: .3rem;
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.view-text > li .text-content .text-bown {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: .2rem;
+    float: left;
+}
+
+.view-text > li .text-content .text-bown > em {
+    width: auto;
+    height: .4rem;
+    line-height: .44rem;
+    font-size: .3rem;
+    background: url(../images/vote/ico_collection_1@1.5x.png) no-repeat;
+    background-size: .3rem;
+    background-position: right;
+    padding-right: .4rem;
+    color: #909090;
+    float: left;
+}
+
+.view-text > li .text-content .text-bown .em-active-text {
+    width: auto;
+    height: .4rem;
+    line-height: .44rem;
+    font-size: .3rem;
+    background: url(../images/vote/ico_collection_4@1.5x.png) no-repeat;
+    background-size: .3rem;
+    background-position: right;
+    padding-right: .4rem;
+    color: #909090;
+    float: left;
+}
+
+.view-text > li .text-content .text-bown .browse {
+    width: auto;
+    height: .4rem;
+    line-height: .4rem;
+    font-size: .26rem;
+    padding: 0 .1rem;
+    color: #909090;
+    float: right;
+    border: 1px solid #EEEEEE;
+}

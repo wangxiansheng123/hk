@@ -1,0 +1,14 @@
+.bottom-to-top {
+    width: 38px;
+    height: 38px;
+    position: fixed;
+    bottom: 62px;
+    right: 9px;
+    z-index: 888;
+    display: none;
+}
+.bottom-to-top img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

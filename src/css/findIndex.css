@@ -1,0 +1,123 @@
+body {
+    background: #f5f5f5;
+}
+
+.review-up {
+    width: 100%;
+    height: .88rem;
+    line-height: .88rem;
+    font-size: .28rem;
+    font-weight: 800;
+    color: #323232;
+    padding: 0 .24rem;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+
+.activity {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.activity .activity-item {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    box-sizing: content-box;
+}
+
+.activity .activity-item .pic {
+    width: 100%;
+    height: 3.2rem;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+
+.activity .activity-item .pic > img {
+    width: 100%;
+    height: 3.2rem;
+}
+
+.activity .activity-item .pic > span {
+    width: auto;
+    height: auto;
+    font-size: .26rem;
+    background: rgba(0, 0, 0, .2);
+    color: #FFFFFF;
+    padding: .14rem;
+    position: absolute;
+    right: .1rem;
+    top: .1rem;
+    border-radius: 14%;
+}
+
+.activity .activity-item .down {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    background: #FFFFFF;
+}
+
+.activity .activity-item .down .down-l {
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+}
+
+.activity .activity-item .down .down-l > h2 {
+    width: 100%;
+    height: .4rem;
+    line-height: .4rem;
+    font-size: .3rem;
+    color: #494949;
+    float: left;
+    padding-left: .3rem;
+    margin-top: .2rem;
+}
+
+.activity .activity-item .down .down-l > div {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+    font-size: .22rem;
+    color: #494949;
+    padding-left: .3rem;
+
+}
+
+.activity .activity-item .down .down-l > div > img {
+    width: .32rem;
+    height: .32rem;
+    margin: .08rem .16rem .16rem 0;
+
+}
+
+.activity .activity-item .down .down-r {
+    width: auto;
+    height: auto;
+    line-height: .36rem;
+    font-size: .22rem;
+    border-radius: .08rem;
+    border: 1px solid #398ee3;
+    color: #398ee3;
+    float: right;
+    text-align: center;
+    padding: .06rem .2rem;
+    margin: .3rem .3rem .3rem 0;
+}
+
+.activity .activity-item .down .disabled {
+    border-color: rgb(222, 222, 222);
+    color: rgb(222, 222, 222);
+}
+

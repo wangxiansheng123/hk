@@ -1,0 +1,37 @@
+
+框架技术说明
+1.框架结合webpack和gulp相结合来构建此项目的前端自动化构建
+  （1）webpack集中打包html/css/js合拼处理
+   (2) gulp处理css的兼容问题，以及对js的语法处理并集中处理打包到dist目录下
+   (备注) webpack可以做css兼容问题，但是在配置文件中配置时出现报错，经过多次配置仍失败，选择了gulp来统一处理css里面的兼容问题（如后期得到技术支持完善，可进行切换）。
+
+2.框架使用react，主要因为react的虚拟dom以及渲染机制
+
+3.css的编写，为了开发效率，编译工具配置less配置文件。
+
+4、immutable.js为了提高react渲染性能，对props/state前后数据的变化来判断该组件是否渲染(倪伟)
+  react的生命周期中的钩子函数shouldComponentUpdate（）方法中利用immutable来判断是否需要渲染
+  example:
+   shouldComponentUpdate(nextProps, nextState) {
+          return !is(fromJS(this.props), fromJS(nextProps)) || !is(fromJS(this.state),fromJS(nextState))
+      }
+3
+
+5.利用事件截根据后台数据库是否发生改变来判断我本地存储的 timestamp是否相同，来从新刷新这个页面来达到页面是否刷新，提高性能，首次进入页面请求过来的数据保存在本地（倪伟,韩刚刚）
+
+
+6.对状态机的管理store，建议使用中间键redux-saga来处理异步请求数据(倪伟)
+
+7.react中对原生事件的处理方式，获取被点击元素  （target 触发事件的元素。尽管事件是绑定在 li 上的，点 div.item-content 触发的就是 div.item-content。currentTarget 事件绑定的元素。事件绑定在 li 不管你点谁 触发的总是 li）
+
+8.react中对组件设置默认props，用defaultProps用法
+例：
+   static defaultProps = {
+        header: {
+            title: "商品分类",
+            name: '保存',
+        },
+    };
+
+
+9.react中通过url传参数，需要多拼凑的参数字符串进行混淆  escape(str) // str为拼凑的字符串

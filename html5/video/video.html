@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>发现-视频</title>
+		<meta name="description" content="">
+		<meta name="Keywords" content="">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="format-detection" content="telephone=no,email=no">
+		<link href="../common/css/common.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/video.css" />
+	</head>
+
+	<body>
+		<div class="page">
+			<div class="shipin">
+				<div class="shipin-item" onclick="playVid()">
+					<video id="video1" autoplay="autoplay">
+						<source src="https://1251412368.vod2.myqcloud.com/vodtransgzp1251412368/9031868223035309237/f0.f30.mp4" type="video/mp4">
+					</video>
+				</div>
+				<img class="suspend" src="images/0127_70.png" />
+				<div class="words">
+					<div class="text">
+						发电费收费发达发送范德萨发到付发发所发生的答案是发的说法按时发达发的啥发打发斯蒂芬发士大夫撒发顺丰撒范德萨发士大夫发打发斯蒂芬发大水发发生啊发顺丰第三方
+					</div>
+					<div class="star">
+						<em>2000</em>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../common/js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/video.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var i = 1;
+		var myVideo = document.getElementById("video1");
+
+		function playVid() {
+			if(i == 0) {
+				myVideo.play();
+			} else {
+				myVideo.pause();
+			}
+
+		}
+	</script>
+
+</html>

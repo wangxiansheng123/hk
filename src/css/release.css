@@ -1,0 +1,282 @@
+html body {
+    background: #FFFFFF;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    border-bottom: 1px solid #EEEEEE;
+    position: relative;
+
+}
+
+.title > ul {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    margin: .16rem auto .16rem;
+}
+
+.title > ul > li {
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+    float: left;
+}
+
+.title > ul > li > em {
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .3rem;
+    color: #494949;
+    display: block;
+    text-align: center;
+}
+
+.title > ul > li > span {
+    width: 50%;
+    height: .05rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.em-select {
+    color: #007AFF !important;
+}
+
+.span-select {
+    background: #007AFF;
+}
+
+.title > img {
+    width: .36rem;
+    height: .36rem;
+    position: absolute;
+    right: .3rem;
+    top: .25rem;
+}
+
+#con {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+#con > li {
+    width: 92%;
+    margin: 0 .3rem;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    /*  display: none;*/
+}
+
+#con > li.show {
+    display: block;
+}
+
+#con > li .pic-box {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+#con > li .pic-box > li {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#con > li .pic-box > li .pic-select {
+    width: .3rem;
+    height: .3rem;
+    margin: 1rem .3rem 0 0;
+    float: left;
+}
+
+#con > li .pic-box > li .play {
+    width: 91%;
+    height: auto;
+    zoom: 1;
+    overflow: hidden;
+    float: left;
+}
+
+.play-active {
+    width: 100% !important;
+}
+
+#con > li .pic-box .pic {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: .3rem .3rem .3rem 0;
+    float: left;
+}
+
+#con > li .pic-box .pic > img {
+    width: 100%;
+    height: 100%;
+}
+
+#con > li .pic-box .pic-r {
+    width: 72%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+    margin-top: .3rem;
+}
+
+.pic-r-active {
+    width: 69.2% !important;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+    margin-top: .3rem;
+
+}
+
+#con > li .pic-box .pic-r > p {
+    width: 100%;
+    height: auto;
+    line-height: .4rem;
+    font-size: .3rem;
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+#con > li .pic-box .pic-r .pic-down {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: .2rem;
+    float: left;
+}
+
+#con > li .pic-box .pic-r .pic-down .pic-down-l {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+}
+
+#con > li .pic-box .pic-r .pic-down .pic-down-l > span {
+    width: auto;
+    height: .4rem;
+    line-height: .44rem;
+    font-size: .3rem;
+    background: url(../images/release/ico_collection_1@1.5x.png) no-repeat;
+    background-size: .3rem;
+    background-position: left;
+    padding-left: .4rem;
+    color: #909090;
+    float: left;
+    margin-right: .2rem;
+}
+
+#con > li .pic-box .pic-r .pic-down .pic-down-l > span-f-active {
+    width: auto;
+    height: .4rem;
+    line-height: .44rem;
+    font-size: .3rem;
+    background: url(../images/release/ico_collection_4@1.5x.png) no-repeat;
+    background-size: .3rem;
+    background-position: left;
+    padding-left: .4rem;
+    color: #909090;
+    float: left;
+    margin-right: .2rem;
+}
+
+#con > li .pic-box .pic-r .pic-down .pic-down-l > em {
+    width: auto;
+    height: .4rem;
+    line-height: .44rem;
+    font-size: .3rem;
+    background: url(../images/release/ico_chat@1.5x.png) no-repeat;
+    background-size: .3rem;
+    background-position: left;
+    padding-left: .4rem;
+    color: #909090;
+    float: left;
+    margin-right: .2rem;
+}
+
+#con > li .pic-box .pic-r .pic-down .pic-down-l > em-active {
+    width: auto;
+    height: .4rem;
+    line-height: .44rem;
+    font-size: .3rem;
+    background: url(../images/0127_71.png) no-repeat;
+    background-size: .3rem;
+    background-position: left;
+    padding-left: .4rem;
+    color: #909090;
+    float: left;
+    margin-right: .2rem;
+}
+
+#con > li .pic-box .pic-r .pic-down .pic-down-r {
+    width: auto;
+    height: .4rem;
+    line-height: .44rem;
+    overflow: hidden;
+    zoom: 1;
+    float: right;
+    font-size: .3rem;
+    background: #ff6a03;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 .2rem;
+}
+
+.msg {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #FFFFFF;
+    z-index: 9;
+}
+
+.msg > div {
+    width: 50%;
+    height: .9rem;
+    line-height: .9rem;
+    text-align: center;
+    font-size: .3rem;
+    color: #909090;
+    float: left;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.msg > div > img {
+    width: .3rem;
+    height: .3rem;
+    margin: .22rem .2rem .3rem 0;
+}
+
+.msg > div.delect {
+    color: #22AAFF;
+}

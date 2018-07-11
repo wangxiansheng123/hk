@@ -1,0 +1,64 @@
+html body {
+    background: #ffffff;
+}
+
+.page .title {
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    overflow: hidden;
+    zoom: 1;
+    font-size: .3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: .8rem;
+
+}
+
+.page > ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.page > ul > li {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: .8rem;
+}
+
+.page > ul > li > h2 {
+    width: 90%;
+    height: auto;
+    line-height: .4rem;
+    overflow: hidden;
+    zoom: 1;
+    font-size: .24rem;
+    text-align: center;
+    padding: 0 5%;
+
+}
+
+.page > ul > li > img {
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    vertical-align: middle;
+    margin: 0 5%;
+}
+
+@media(min-device-width:375px)and(max-device-width:667px)and(-webkit-min-device-pixel-ratio:2){
+
+    /*iphone6*/
+
+}
+
+@media(min-device-width:414px)and(max-device-width:736px)and(-webkit-min-device-pixel-ratio:3){
+
+    /*iphone6plus*/
+
+}

@@ -1,0 +1,254 @@
+/*主体*/
+html, body {
+    background: #FFFFFF;
+}
+
+.page {
+    overflow: auto;
+    zoom: 1;
+}
+
+.login-main {
+    width: 5.7em;
+    height: auto;
+    display: block;
+    float: left;
+    margin: 1.88rem .9rem 0;
+}
+
+.login-main .login-tab {
+    width: 100%;
+    height: .7rem;
+}
+
+.login-main .login-tab > span {
+    width: 1.98rem;
+    height: .66rem;
+    line-height: .66rem;
+    color: #676464;
+    display: block;
+    text-align: center;
+    font-size: .3rem;
+    float: left;
+    margin-top: .02rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.login-main .login-tab > span > em {
+    width: 100%;
+    height: .06rem;
+    background: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.login-main .login-tab .login-tab-psd {
+    margin-left: .02rem;
+    color: #c35157;
+}
+
+.login-main .login-tab .login-tab-psd > em {
+    background: #c35157;
+}
+
+.login-main .login-tab .login-tab-sms {
+    margin-right: .02rem;
+    float: right;
+    color: #676464;
+}
+
+.login-main .login-tab .login-tab-sms > em {
+    background: #ffffff;
+}
+
+.login-main .item {
+    width: 100%;
+    font-size: .26rem;
+    float: left;
+    margin: .2rem 0;
+}
+
+.login-main .item-tips {
+    display: none;
+    height: .3rem;
+    margin-top: .4rem;
+}
+
+.login-main .item-tips .err-msg {
+    font-size: .24rem;
+    color: #a63533;
+}
+
+.login-main .login-form {
+    width: 100%;
+    overflow: hidden;
+    margin-top: .9rem;
+    zoom: 1;
+}
+
+.login-main .item-username {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eaeaea
+}
+
+.login-main .item-password {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+}
+
+.login-main .item .txt-input .txt-password {
+    width: 4.7rem;
+}
+
+.login-main .item-password .tp-btn {
+    width: .4rem;
+    height: .22rem;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+    top: .45rem;
+    right: .1rem;
+}
+
+.login-main .item-sms-captcha {
+    width: 100%;
+    height: auto;
+    display: none;
+    position: relative;
+}
+
+.txt-sms-captcha {
+    width: 58% !important;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.login-main .btn-retransmit-disabled {
+    width: 1.5rem;
+    height: .6rem;
+    line-height: .6rem;
+    border-radius: .08rem;
+    text-align: center;
+    font-size: .26rem;
+    overflow: hidden;
+    cursor: default;
+    padding: .1rem .3rem;
+    float: right;
+    margin-top: .2rem;
+    background: #c35157;
+    color: #ffffff;
+}
+
+/*.login-main .btn-retransmit-enable {
+    background: #c35157;
+    color: #ffffff;
+}*/
+
+.login-main .Shield {
+    width: 2.1rem;
+    height: .82rem;
+    border-radius: .08rem;
+    position: absolute;
+    top: .17rem;
+    right: 0;
+    display: none;
+}
+
+.login-main .item .txt-input {
+    width: 100%;
+    height: 1rem;
+    line-height: normal;
+    padding: 0;
+    font-size: .26rem;
+    color: #666666;
+    font-family: "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", "微软雅黑", Tahoma, Arial, STHeiti, sans-serif;
+    float: left;
+    background: #ffffff;
+}
+
+.login-main .item-res .btn-res,
+.login-main .item-res .login-tab-sms,
+.login-main .item-res .login-tab-psd {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    line-height: .86rem;
+    text-align: center;
+    font-size: .28rem;
+    color: #757575
+}
+
+.login-main .login-form .item-login {
+    margin-top: .8rem
+}
+
+.login-main .login-form .item-res {
+    margin-top: .3rem;
+}
+
+.login-main .login-form .item-res .retrieve-res {
+    display: block;
+    float: left
+}
+
+.login-main .login-form .item-res .retrieve-sms {
+    display: block;
+    float: right
+}
+
+.login-main .item-btns .btn-login {
+    display: inline-block;
+    width: 100%;
+    height: .84rem;
+    border-radius: .08rem;
+    background: #c35157;
+    text-decoration: none;
+    line-height: .84rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #fff;
+}
+
+.login-main .item-btns .btn-disabled {
+    background: #bababa;
+    cursor: default;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.txt-input::-webkit-input-placeholder {
+    color: #e1e1e1;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    -webkit-text-fill-color: #333;
+}
+
+.article-detail > p {
+    margin-bottom: .1rem;
+}
+
+.article-detail > ol > li {
+    margin-bottom: .1rem;
+}
+
+.article-detail ul > li {
+    margin-bottom: .1rem;
+}
+
+
+
+
+
+
+
+
+
+
+ 
