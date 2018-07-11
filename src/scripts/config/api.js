@@ -7,7 +7,7 @@ import $ from 'zepto';
 
 
 /*let env_url = 'http://183.131.159.208:10027'; //测试环境*/
-/*let env_url = 'http://biz.hkwx.allook.cn:8084'; //正式环境*/
+/*  //正式环境*/
 let env_url = 'http://10.1.0.208:80'; //正式环境
 
 
