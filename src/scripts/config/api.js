@@ -77,9 +77,7 @@ let Api = function (params) {
                         _data = data;
                     }
                     successCallback(_data);
-                }
-
-            ,
+                },
             error: function (error) {
                 failCallback(error);
             }
